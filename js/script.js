@@ -1,9 +1,3 @@
-var animationSpeed = 300;
-
-function formatPrice(price) {
-    return price.toLocaleString("cs-CZ") + " Kč";
-}
-
 document.addEventListener("DOMContentLoaded", function () {
     var offerButtons = document.querySelectorAll(".offer-btn");
 
